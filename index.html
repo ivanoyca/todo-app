@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ac98035f4b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-heading">
+        <h1>#todo</h1>
+      </div>
+      <div class="states">
+        <button class="btn btn-states activated">All</button>
+        <button class="btn btn-states">Active</button>
+        <button class="btn btn-states">Completed</button>
+      </div>
+      <div class="hr">
+        <hr />
+      </div>
+      <div class="input-field">
+        <input
+          type="text"
+          name="todo-field"
+          id="todo-field"
+          placeholder="add details"
+        />
+        <button class="btn btn-primary btn-lg add-btn">Add</button>
+      </div>
+      <div class="task-list">
+        <!-- <div class="tasks">
+          <div class="checkbox"></div>
+          <p class="task-description">HelloWorld</p>
+        </div>
+        <div class="tasks">
+          <div class="checkbox checked"><i class="fa-solid fa-check"></i></div>
+          <p class="task-description">HelloWorld</p>
+        </div> -->
+        <ul id="todo-list">
+          <li><input type="checkbox" name="" class="checkbox" />HelloWorld</li>
+          <li>hello</li>
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

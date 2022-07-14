@@ -1,0 +1,101 @@
+html,
+body {
+  height: 100%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px 300px;
+}
+
+.main-heading {
+  display: flex;
+  justify-content: center;
+}
+
+.main-heading h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  position: relative;
+  right: 30px;
+}
+
+.states {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn-states {
+  border-radius: 0%;
+}
+
+.activated {
+  border-bottom: 3px solid #2f80ed;
+}
+
+hr {
+  width: 608px;
+  border: 1px solid #bdbdbd;
+}
+
+.hr,
+.input-field {
+  display: flex;
+  justify-content: center;
+}
+
+#todo-field {
+  width: 476px;
+  height: 56px;
+  border: 1px solid #bdbdbd;
+  border-radius: 12px;
+  margin-right: 25px;
+  padding: 12px;
+}
+
+.add-btn {
+  width: 109px;
+  height: 56px;
+  font-size: 14px;
+}
+
+.tasks {
+  padding: 10px 60px 0 60px;
+  display: flex;
+  align-items: center;
+}
+
+input.task {
+  width: 24px;
+  height: 24px;
+  border-radius: 10px;
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+  border: solid 1px #828282;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.task-description {
+  margin: 0 0 0 7px;
+}
+
+.checked {
+  background-color: #2f80ed;
+  border: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-list {
+  padding: 20px 40px;
+}
+
+ul {
+  list-style-type: none;
+}
